@@ -19,7 +19,7 @@ $(call inherit-product, vendor/cm/config/common.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-LOCAL_PATH := device/nubia/nx512j
+LOCAL_PATH := device/nubia/nx513j
 
 # Charger
 PRODUCT_PACKAGES += charger charger_res_images \
@@ -32,9 +32,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/etc/twrp.fstab:root/etc/twrp.fstab
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_nx512j
+PRODUCT_NAME := lineage_nx513j
 BOARD_VENDOR := nubia
-PRODUCT_DEVICE := nx512j
+PRODUCT_DEVICE := nx513j
 
 PRODUCT_GMS_CLIENTID_BASE := android-nubia
 
